@@ -46,7 +46,7 @@ public class PlaylistController {
 	public String viewPlaylists(Model model){
 		List<Playlist> allPlaylists = playlistService.fetchAllPlaylists();
 		model.addAttribute("allPlaylists" , allPlaylists);
-		return "displayPlaylist";
+		return "displayPlaylists";
 		
 	}
 

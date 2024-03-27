@@ -1,0 +1,70 @@
+/* Resetting default browser styles */
+body,
+table,
+thead,
+tbody,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Container to center the table */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full height of the viewport */
+}
+
+/* Styling table */
+table {
+  width: 70%; /* Adjust the width as needed */
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-size: 14px; /* Adjust font size as needed */
+}
+
+/* Styling table header */
+th {
+  background-color: #f2f2f2;
+  border: 1px solid #ddd;
+  padding: 8px; /* Adjust padding as needed */
+  text-align: left;
+}
+
+/* Styling table cells */
+td {
+  border: 1px solid #ddd;
+  padding: 8px; /* Adjust padding as needed */
+}
+
+/* Styling audio controls */
+audio {
+  display: block;
+  width: 100%;
+  margin-top: 5px;
+}
+
+/* Styling playlist names */
+td:first-child {
+  font-weight: bold;
+}
+
+/* Styling list items */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+/* Styling song names */
+span {
+  margin-right: 10px;
+}
